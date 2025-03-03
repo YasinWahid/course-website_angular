@@ -1,0 +1,38 @@
+.card{
+    width: 70%;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: #182628;
+    color: #65ccb8;
+    .card-header{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+   button{
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #65ccb8;
+    color: #182628;
+    font-weight: bold;
+    border: none;
+   }
+   button:hover{
+    background-color: #182628;
+    color: #65ccb8;
+}
+}
+
+.text-danger{
+    padding: 0.5rem;
+    color: red;
+    font-size: 0.75rem;
+}
+
+.imageDiv{
+    img{
+        height: 5rem;
+        width: 5rem;
+    }
+    
+}

@@ -1,0 +1,60 @@
+/* Prevent horizontal scrollbars and ensure proper alignment */
+body {
+    overflow-x: hidden;
+  }
+  
+  .container {
+    margin: 0 auto;
+    h1{
+      font-family: Georgia;
+      font-weight: bold;
+    }
+  }
+  
+  .row {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .col-lg-4 {
+    padding: 0; /* Removes extra padding from columns */
+  }
+  
+  .box {
+    padding: 2vh 4vh;
+    height: 40vh;
+    margin: 0 auto; /* Centers the box */
+  
+    /* Styling the course image container */
+    .course-image {
+      height: 25vh;
+      width: 100%;
+      background-color: #535d7a;
+      background-size: cover;
+  
+      /* Styling the image inside the container */
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    /* Styling the paragraph inside the box */
+    p {
+      font-size: 0.75rem;
+    }
+  }
+  
+  /* Styling the delete button */
+  button {
+    position: absolute;
+    margin-left: -5vh;
+  
+    /* Styling the icon inside the button */
+    i {
+      color: blanchedalmond;
+    }
+  }
+  

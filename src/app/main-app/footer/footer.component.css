@@ -1,0 +1,41 @@
+.footer{
+    background-color: #182628;
+    color: #65CCB8;
+    padding: 4vh 0;
+    a{
+        color: #65CCB8;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgb(2, 114, 206);
+    }
+    h4{
+        color: white;
+    }
+    h5{
+        margin-bottom: 2vh;
+        color: azure;
+        font-weight: bold;
+    }
+    .social-icons{
+        a{
+            color:  white;
+            font-size: 1.4rem;
+        }
+        a:hover{
+            color: #65CCB8 !important;
+        }
+    }
+    button{
+        background-color: #65ccb8;
+        color: #182628;
+        font-weight: bold;
+        border: none;
+    }
+    button:hover{
+        background-color: #182628;
+        color: #65ccb8;
+    }
+
+    
+}

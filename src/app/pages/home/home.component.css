@@ -1,0 +1,29 @@
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+}
+.main-content{
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    h1{
+        font-size: 3rem;
+    }
+    a{
+        background-color: #65ccb8;
+        color: #182628;
+        font-weight: bold;
+        border: none;
+        padding: 2vh 6vh;
+    }
+    a:hover{
+        background-color: #182628;
+        color: #65ccb8;
+    }
+   
+}
+section.container{
+    padding: 6vh 6vh;
+}

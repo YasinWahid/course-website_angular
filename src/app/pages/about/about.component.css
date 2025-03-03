@@ -1,0 +1,15 @@
+.about-us{
+    padding-bottom: 10vh;
+
+}
+img{
+    object-fit: cover;
+    background-color: white;
+}
+h4{
+    margin-top: 10px;
+}
+h2{
+    font-family: Georgia;
+    font-weight: bold;
+  }
